@@ -12,7 +12,8 @@ $pdf->SetPrintHeader(false);
 /* SIZE CONFIG - in mm */
 $leftMargin=5;$topMargin=5;
 $cellsPerPage=10;
-$cellWidth=85; $cellHeight=54; //<-- -1mm for border (A4 is 297mm heigh)
+//$cellWidth=85; $cellHeight=54; //<-- -1mm for border (A4 is 297mm heigh)
+$cellWidth=78; $cellHeight=49;
 
 $handle = fopen("config/ludzie.txt", "r");
 if ($handle) {
