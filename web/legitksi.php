@@ -13,12 +13,9 @@ $pdf->SetAutoPageBreak(TRUE, 0);
 /* SIZE CONFIG - in mm */
 $leftMargin=5;$topMargin=5;
 $cellsPerPage=10;
-<<<<<<< HEAD
 $cellWidth=80; $cellHeight=50;
-=======
 //$cellWidth=85; $cellHeight=54; //<-- -1mm for border (A4 is 297mm heigh)
 $cellWidth=78; $cellHeight=49;
->>>>>>> 5bf5c56f94cf1089be6fed56cfad1cfc44fe651c
 
 $handle = fopen("config/ludzie.txt", "r");
 if ($handle) {
